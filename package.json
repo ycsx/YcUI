@@ -1,5 +1,5 @@
 {
-  "name": "ycui",
+  "name": "vue-ycui",
   "version": "1.0.0",
   "private": false,
   "main": "lib/ycui.umd.min.js",

@@ -2,7 +2,7 @@
     <div>
         <div class="expand-banner-contaner">
             <div @click="expandIndexHandler('minus')" class="expand-banner-arrow expand-banner-left">
-               <img v-if="totalIndex !== 0" src="./assets/svg/Arrow.svg" alt="">
+               <img v-if="totalIndex !== 0" src="https://ycsx.github.io/static/images/Arrow.svg" alt="">
             </div>
             <div class="expand-banner-main">
                 <div @click="[expandIndex = index,totalIndex = item.index]" 
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div @click="expandIndexHandler('plus')" class="expand-banner-arrow expand-banner-right">
-                <img v-if="totalIndex !== data.length-1" src="./assets/svg/Arrow.svg" alt="">
+                <img v-if="totalIndex !== data.length-1" src="https://ycsx.github.io/static/images/Arrow.svg" alt="">
             </div>
         </div>
         <div class="expand-page-counter">
