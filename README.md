@@ -1,29 +1,33 @@
-# ycui
+# YcUI
 
-## Project setup
-```
-npm install
-```
+##[https://github.com/ycsx/YcUI](https://github.com/ycsx/YcUI)
 
-### Compiles and hot-reloads for development
+## 项目安装
 ```
-npm run serve
+npm install YcUI
 ```
 
-### Compiles and minifies for production
+### 在main.js中引入&&注册
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+import YcUI from 'ycui'
+import 'ycui/lib/ycui.css'
+Vue.use(YcUI);
 ```
 
-### Lints and fixes files
+### 在组件中引入
 ```
-npm run lint
+<YcExtend :data='data' :pageSize='pageSize />
+//data格式如下：
+    [
+        {
+            index:0,
+            number:'01',
+            title:'title',
+            desc:'desc',
+        }
+    ]
+//pageSize默认为3，可自行设置，为每页数量
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
